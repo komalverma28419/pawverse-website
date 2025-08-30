@@ -1,0 +1,405 @@
+
+ 
+#top_nav{
+    background-color: #23a38e; 
+    padding: 0 9%;
+
+    
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: rgb(255,255,255);
+    font-size: 20px;
+    padding-left: 25px;
+}
+#searchbox{
+    background-color:#3bb3b3;
+    border: 0px;
+    border-radius: 0;
+    position: relative;
+    left: 47px;
+    box-shadow:5px 10px 11px 0px #be232321;
+
+}
+#searchbox::placeholder{
+
+    color: black;
+    font-size: 20px;
+}
+#searchbtn{
+    position: relative;
+    z-index:99;
+    background-color:#da7c00;
+    border: 0px;
+    border-radius: 0;
+
+}
+
+@media only screen and (max-width: 991px){
+    #searchform{
+        margin-bottom: 30px;
+        margin-top: 20px;
+        position: relative;
+        left: -20px;
+    }
+}
+
+/* container */
+#row-prop{
+    background-color: #d7dbcc;
+    padding-bottom: 70px;
+    /* padding-top: 10px; */
+}
+#text-prop h1{
+    color: black;
+    font-size:50px;
+    margin-top: 70px;
+   
+}
+.span-text{
+    color: #1055b1;
+}
+
+#text-prop p{
+    color: black;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#btn-1{
+    background-color:#da7c00;
+    border: 2px solid #da7c00;
+    color: white;
+
+}
+
+#btn-2{
+    background-color:#d6547f;
+    color: white;
+    border: 2px solid #d6547f;
+    margin-left: 15px;
+
+} 
+
+#img-prop{
+    padding-top: 100px;
+    
+}
+
+#img-prop .img-fluid{
+    box-shadow: 5px 10px 15px 0px #727376;
+}
+
+@media only screen and (max-width: 1150px){
+    #text-prop h1{
+        font-size: 40px;
+    }
+    #img-prop{
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 930px){
+    #text-prop h1{
+        font-size: 25px;
+
+    }
+    #text-prop p{
+        font-size: 18px;
+        
+    }
+
+}
+@media only screen and (max-width: 414px){
+    #btn-1, #btn-2{
+        display: block;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        
+    }
+
+    /* #btn-1{
+        margin-bottom: 20px;
+        
+    }
+    #btn-2{
+        margin-left: 0px;
+    } */
+}
+
+
+/* service-section property */
+#service-prop{
+    padding-bottom: 70px;
+    /* background-color: #d7dbcc; */
+    /* background-color: #23a38e; */
+    
+
+}
+#service-text h1{
+    color: black;
+    font-size:40px ;
+    margin-top: 70px;
+}
+/* .span-ser-text{
+    color:#d6547f ;
+} */
+
+#service-text p{
+    color:black;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 20px;
+
+}
+#service-btn{
+    background-color:#d6547f;
+    border: 2px solid #d6547f;
+    color: white;
+
+}
+#service-image{
+    padding-top: 90px;
+    
+}
+
+
+#service-image .img-fluid{
+    box-shadow: 5px 10px 15px 0px #727376;
+}
+
+
+@media only screen and (max-width: 1150px){
+    #service-text h1{
+        font-size:32px ;
+    }
+
+}
+
+@media only screen and (max-width: 930px){
+    #service-text h1{
+        font-size:25px ;
+    }
+    #service-text p{
+        font-size: 18px;
+    }
+    #service-image{
+        margin-top: 4%;
+    }
+
+    
+}
+
+@media only screen and (max-width: 414px){
+    #service-btn{
+        width: 100%;
+    }
+}
+
+/* counter section start */
+
+
+#counter-image{
+    background-image: url("../../assets/img/bg-1.jpg");
+    padding-top: 3.5rem;
+    padding-bottom: 6rem;
+    background-position: center;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    position: relative;
+    /* overflow: hidden; */
+    
+
+}
+#counter-image::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 250, 250, 0.705);
+    /* z-index: 1; */
+  }
+.all_content {
+    color: black;
+    font-size: 4.5rem;
+    position: relative;
+    z-index: 1;
+}
+.all_content .counter_text {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #C80036;
+  }
+.all_content .counter_sp{
+    color: #1D24CA;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+
+
+@media only screen and (max-width: 930px){
+    .all_content .counter_sp {
+        font-size: 1.6rem;
+    }
+    .all_content .counter_text{
+        font-size: 1.6rem;
+    }
+}
+
+
+
+/* ---------------blog session---------------------- */
+#blog{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    /* background-color: #969792; */
+
+
+}
+.blog_title{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.blog_p{
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+.blog-detail{
+    padding: 15px;
+    border: 1px solid #d7d8d2;
+    border-top: 0;
+}
+.blog_date, .blog_link{
+    color: #00bec9;
+
+}
+.blog_head{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+
+  @media only screen and (max-width: 930px){
+    .blog_main{
+        font-size: 17px;
+    }
+  }
+
+
+
+
+  /*--------- footer section------------------------- */
+  #footer{
+    background-color: #343434;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: white;
+  }
+  #footer a{
+    color: white;
+    text-decoration: none;
+  }
+.footer_form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer_search_box{
+    background-color:#da7c00 ;
+    color: white;
+    border: 0;
+    padding: 15px;
+    width: 100%;
+    max-width: 270px;
+    position: relative;
+    left: 6px;
+
+}
+.footer_cursor_box{
+    background-color: #3bb3b3;
+    border: 0;
+    padding: 15px 30px;
+    color: white;
+}
+
+.icon{
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+
+@media only screen and (max-width: 1150px){
+    .footer_search_box {
+        width: 100%;
+        max-width: 200px;
+    }
+    .p-prop{
+        font-size: 14px;
+    }
+    #footer a {
+        font-size: 14px;
+    }
+}
+
+
+@media only screen and (max-width: 930px){
+    .footer_search_box{
+        width: 100%;
+        max-width: 160px;
+    }
+    .footer_cursor_box{
+        padding: 15px 24px;
+    }
+    .p-prop{
+        font-size: 12px;
+    }
+    #footer a {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #row_2{
+        padding-top: 3rem;
+
+    }
+    .footer_search_box{
+        width: 100%;
+        max-width: 230px;
+
+    }
+    .footer_cursor_box{
+        padding: 15px 30px;
+
+    }
+    .p-prop{
+        font-size: 100%;
+    }
+    #footer a {
+        font-size: 100%;
+    }
+
+   
+}
+
+/*--------------------------------------------------- completed---------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
